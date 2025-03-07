@@ -26,7 +26,7 @@ jobs:
         with:
           name: build
           if-no-files-found: error
-          path: build
+          path: .svelte-kit/output
 
   cypress-run:
     runs-on: ubuntu-24.04
