@@ -44,7 +44,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: build
-          path: build
+          path: .svelte-kit/output
 
       - name: Cypress run
         uses: cypress-io/github-action@v6
