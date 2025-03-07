@@ -67,7 +67,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: ctrf-report.json
-          path: ctrf-report.json
+          path: ./
 
       - name: test insight
         uses: bruno-espino/test-report-action@v0.1.2
