@@ -70,6 +70,6 @@ jobs:
           path: ./
 
       - name: test insight
-        uses: bruno-espino/test-report-action@v0.1.3
+        uses: bruno-espino/test-report-action@v0
         with:
           file: ctrf-report.json
